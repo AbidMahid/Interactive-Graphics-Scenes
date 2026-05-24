@@ -1,0 +1,8 @@
+display-4
+// Global variables for animation and day/night mode
+int dayMode = 1; // 1 = day, 0 = night
+float boatPos = 0.0f;
+float cloudPos = 0.0f;
+float treeSway = 0.0f;
+float boatSpeed = 0.5f; // Normal boat speed
+float fanAngle = 0.0f;  // Fan rotation angle
