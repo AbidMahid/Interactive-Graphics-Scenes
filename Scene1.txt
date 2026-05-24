@@ -1,0 +1,826 @@
+abid-slide-1
+void building1()
+{
+//for Building 1//1
+glBegin(GL_POLYGON);
+glColor3f(0.50,0.902,1);
+glVertex2f(20, 0);//E
+glVertex2f(20, 265);//F
+glVertex2f(240,265);//G
+glVertex2f(240,0);//H
+glEnd();
+
+//for Building 1 window 1
+glBegin(GL_POLYGON);
+glColor3f(1,1,1);
+glVertex2f(70,245);//
+glVertex2f(120,245);//L
+glVertex2f(120,200);//H
+glVertex2f(70,200);//G
+glEnd();
+
+//for Building 1 window
+glBegin(GL_POLYGON);
+glColor3f(1,1,1);
+glVertex2f(70,65);//
+glVertex2f(120,65);//L
+glVertex2f(120,30);//H
+glVertex2f(70,30);//G
+glEnd();
+
+}
+
+void building2()
+{
+
+//for Building 2a //2
+glBegin(GL_POLYGON);
+glColor3f(0,0.769,0.961);
+glVertex2f(175, 265);//I
+glVertex2f(175,500);//J
+glVertex2f(330,500);//K
+glVertex2f(325,265);//
+glEnd();
+
+//for Building 2b
+glBegin(GL_POLYGON);
+glColor3f(0,0.769,0.961);
+glVertex2f(325,265);//
+glVertex2f(325, 0);//I
+glVertex2f(240,0);//J
+glVertex2f(240,265);//K
+glEnd();
+
+//for Building 2 window 1
+glBegin(GL_POLYGON);
+glColor3f(1,1,1);
+glVertex2f(205,470);//
+glVertex2f(295,470);//L
+glVertex2f(295,420);//H
+glVertex2f(205,420);//G
+glEnd();
+
+//for Building 2 window 2
+glBegin(GL_POLYGON);
+glColor3f(1,1,1);
+glVertex2f(205,380);//
+glVertex2f(295,380);//L
+glVertex2f(295,325);//H
+glVertex2f(205,325);//G
+glEnd();
+
+}
+
+void building3()
+{
+//for Building 3 //3
+glBegin(GL_POLYGON);
+glColor3f(0.125,0.529,0.631);
+glVertex2f(325,0);//
+glVertex2f(475,0);//L
+glVertex2f(475,255);//H
+glVertex2f(325,255);//G
+glEnd();
+
+//for Building 3 window 1
+glBegin(GL_POLYGON);
+glColor3f(1,1,1);
+glVertex2f(365,210);//
+glVertex2f(430,210);//L
+glVertex2f(430,130);//H
+glVertex2f(365,130);//G
+glEnd();
+
+}
+
+void building4()
+{
+//for Building 4a //4
+glBegin(GL_POLYGON);
+glColor3f(0.302,0.502,0.373);
+glVertex2f(415, 255);//
+glVertex2f(415,570);//L
+glVertex2f(600,570);//H
+glVertex2f(600,255);//G
+glEnd();
+
+//for Building 4b /
+glBegin(GL_POLYGON);
+glColor3f(0.302,0.502,0.373);
+glVertex2f(600, 255);//
+glVertex2f(600,0);//L
+glVertex2f(475,0);//H
+glVertex2f(475,255);//G
+glEnd();
+
+//for Building 4 window 1
+glBegin(GL_POLYGON);
+glColor3f(1,1,1);
+glVertex2f(450,520);//
+glVertex2f(500,520);//L
+glVertex2f(500,465);//H
+glVertex2f(450,465);//G
+glEnd();
+
+//for Building 4 window 2
+glBegin(GL_POLYGON);
+glColor3f(1,1,1);
+glVertex2f(500,425);//
+glVertex2f(560,425);//L
+glVertex2f(560,365);//H
+glVertex2f(500,365);//G
+glEnd();
+
+//for Building 4 window 3
+glBegin(GL_POLYGON);
+glColor3f(1,1,1);
+glVertex2f(450,335);//
+glVertex2f(520,335);//L
+glVertex2f(520,275);//H
+glVertex2f(450,275);//G
+glEnd();
+
+//for Building 4 window 4
+glBegin(GL_POLYGON);
+glColor3f(1,1,1);
+glVertex2f(510,210);//
+glVertex2f(580,210);//L
+glVertex2f(580,130);//H
+glVertex2f(510,130);//G
+glEnd();
+
+}
+
+void building5()
+{
+//for Building 5 //5
+glBegin(GL_POLYGON);
+glColor3f(0.455,0.529,0.243);
+glVertex2f(600,0);//
+glVertex2f(600,375);//L
+glVertex2f(800,470);//H
+glVertex2f(800,0);//G
+glEnd();
+
+//for Building 5 window
+glBegin(GL_POLYGON);
+glColor3f(1,1,1);
+glVertex2f(660,350);//
+glVertex2f(745,350);//L
+glVertex2f(745,300);//H
+glVertex2f(660,300);//G
+glEnd();
+
+//for Building 5 window 2
+glBegin(GL_POLYGON);
+glColor3f(1,1,1);
+glVertex2f(655,215);//
+glVertex2f(750,215);//L
+glVertex2f(750,125);//H
+glVertex2f(655,125);//G
+glEnd();
+
+}
+
+void building6()
+{
+//for Building 6 //6
+glBegin(GL_POLYGON);
+glColor3f(0.647,0.89,0.871);
+glVertex2f(800,0);//
+glVertex2f(800,250);//L
+glVertex2f(950,250);//H
+glVertex2f(950,0);//G
+glEnd();
+
+//for Building 6 window 1
+glBegin(GL_POLYGON);
+glColor3f(1,1,1);
+glVertex2f(835,190);//
+glVertex2f(920,190);//L
+glVertex2f(920,125);//H
+glVertex2f(835,125);//G
+glEnd();
+
+}
+
+void building7()
+{
+//for Building 7a //7
+glBegin(GL_POLYGON);
+glColor3f(0.506,0.275,0.51);
+glVertex2f(950,0);//
+glVertex2f(950,250);//L
+glVertex2f(1050,270);//H
+glVertex2f(1050,0);//G
+glEnd();
+
+//for Building 7b
+glBegin(GL_POLYGON);
+glColor3f(0.529,0.529,0.529);
+glVertex2f(1050,0);//
+glVertex2f(1050,270);//L
+glVertex2f(1170,265);//H
+glVertex2f(1170,0);//G
+glEnd();
+
+//for Building 7 window 1
+glBegin(GL_POLYGON);
+glColor3f(1,1,1);
+glVertex2f(970,215);//
+glVertex2f(1030,215);//L
+glVertex2f(1030,170);//H
+glVertex2f(970,170);//G
+glEnd();
+
+//for Building 7 window 2
+glBegin(GL_POLYGON);
+glColor3f(1,1,1);
+glVertex2f(975,110);//
+glVertex2f(1035,110);//L
+glVertex2f(1035,50);//H
+glVertex2f(975,50);//G
+glEnd();
+
+//for Building 8 window 1
+glBegin(GL_POLYGON);
+glColor3f(1,1,1);
+glVertex2f(1080,235);//
+glVertex2f(1140,235);//L
+glVertex2f(1140,170);//H
+glVertex2f(1080,170);//G
+glEnd();
+
+//for Building 8 window 2
+glBegin(GL_POLYGON);
+glColor3f(1,1,1);
+glVertex2f(1090,85);//
+glVertex2f(1150,85);//L
+glVertex2f(1150,35);//H
+glVertex2f(1090,35);//G
+glEnd();
+
+}
+
+void building8()
+{
+//for Building 8 //8
+glBegin(GL_POLYGON);
+glColor3f(0.471,0.576,0.722);
+glVertex2f(1170,0);//
+glVertex2f(1170,545);//L
+glVertex2f(1260,545);//H
+glVertex2f(1260,0);//G
+glEnd();
+
+//for Building 9 window 1
+glBegin(GL_POLYGON);
+glColor3f(1,1,1);
+glVertex2f(1190,505);//
+glVertex2f(1230,505);//L
+glVertex2f(1230,430);//H
+glVertex2f(1190,430);//G
+glEnd();
+
+//for Building 9 window 2
+glBegin(GL_POLYGON);
+glColor3f(1,1,1);
+glVertex2f(1190,375);//
+glVertex2f(1230,375);//L
+glVertex2f(1230,280);//H
+glVertex2f(1190,280);//G
+glEnd();
+
+//for Building 9 window 3
+glBegin(GL_POLYGON);
+glColor3f(1,1,1);
+glVertex2f(1190,240);//
+glVertex2f(1230,240);//L
+glVertex2f(1230,140);//H
+glVertex2f(1190,140);//G
+glEnd();
+
+}
+
+void building9()
+{
+//for Building 9 //9
+glBegin(GL_POLYGON);
+glColor3f(0.631,0.412,0.412);
+glVertex2f(1260,0);//
+glVertex2f(1260,445);//L
+glVertex2f(1455,440);//H
+glVertex2f(1455,0);//G
+glEnd();
+
+//for Building 10 window 1
+glBegin(GL_POLYGON);
+glColor3f(1,1,1);
+glVertex2f(1290,400);//
+glVertex2f(1350,400);//L
+glVertex2f(1350,315);//H
+glVertex2f(1290,315);//G
+glEnd();
+
+//for Building 10 window 2
+glBegin(GL_POLYGON);
+glColor3f(1,1,1);
+glVertex2f(1350,280);//
+glVertex2f(1420,280);//L
+glVertex2f(1420,190);//H
+glVertex2f(1350,190);//G
+glEnd();
+
+//for Building 10 window 3
+glBegin(GL_POLYGON);
+glColor3f(1,1,1);
+glVertex2f(1290,155);//
+glVertex2f(1350,155);//L
+glVertex2f(1350,45);//H
+glVertex2f(1290,45);//G
+glEnd();
+}
+
+void metrospan()
+{
+//for metro span //10
+glBegin(GL_POLYGON);
+glColor3f(0,0,0);
+glVertex2f(0,170);//
+glVertex2f(0,135);//L
+glVertex2f(1500,135);//H
+glVertex2f(1500,170);//G
+glEnd();
+
+//for metro Pier 1
+glBegin(GL_POLYGON);
+glColor3f(0,0,0);
+glVertex2f(170,0);
+glVertex2f(135,0);//
+glVertex2f(135,135);//L
+glVertex2f(170,135);//H
+glEnd();
+
+//for metro Pier 2
+glBegin(GL_POLYGON);
+glColor3f(0,0,0);
+glVertex2f(470,0);
+glVertex2f(420,0);//
+glVertex2f(420,135);//L
+glVertex2f(470,135);//H
+glEnd();
+
+//for metro Pier 3
+glBegin(GL_POLYGON);
+glColor3f(0,0,0);
+glVertex2f(770,0);
+glVertex2f(720,0);//
+glVertex2f(720,135);//L
+glVertex2f(770,135);//H
+glEnd();
+
+//for metro Pier 4
+glBegin(GL_POLYGON);
+glColor3f(0,0,0);
+glVertex2f(1070,0);
+glVertex2f(1020,0);//
+glVertex2f(1020,135);//L
+glVertex2f(1070,135);//H
+glEnd();
+
+//for metro Pier 5
+glBegin(GL_POLYGON);
+glColor3f(0,0,0);
+glVertex2f(1370,0);
+glVertex2f(1320,0);//
+glVertex2f(1320,135);//L
+glVertex2f(1370,135);//H
+glEnd();
+
+}
+
+void metro() //11
+{
+    glMatrixMode(GL_MODELVIEW);
+    glPushMatrix();
+    glTranslated(plane1, 0, 0);
+
+
+//for metrorail body
+glBegin(GL_POLYGON);
+glColor3f(0.271,1,0.227);
+glVertex2f(0,170);//
+glVertex2f(0,270);//L
+glVertex2f(600,270);//H
+glVertex2f(600,170);//G
+glEnd();
+
+//for metrorail nose
+glBegin(GL_POLYGON);
+glColor3f(0.271,1,0.227);
+glVertex2f(600,270);//H
+glVertex2f(775,200);//H
+glVertex2f(775,170);//G
+glVertex2f(600,170);//G
+glEnd();
+
+//for metrorail red line
+glBegin(GL_POLYGON);
+glColor3f(1,0,0);
+glVertex2f(0,190);//H
+glVertex2f(600,190);//H
+glVertex2f(600,180);//G
+glVertex2f(0,180);//G
+glEnd();
+
+//for metrorail window 1
+glBegin(GL_POLYGON);
+glColor3f(0.69,0.478,0.588);
+glVertex2f(100,220);//H
+glVertex2f(100,250);//H
+glVertex2f(150,250);//G
+glVertex2f(150,220);//G
+glEnd();
+
+//for metrorail window 2
+glBegin(GL_POLYGON);
+glColor3f(0.69,0.478,0.588);
+glVertex2f(250,220);//H
+glVertex2f(250,250);//H
+glVertex2f(300,250);//G
+glVertex2f(300,220);//G
+glEnd();
+
+//for metrorail window 3
+glBegin(GL_POLYGON);
+glColor3f(0.69,0.478,0.588);
+glVertex2f(400,220);//H
+glVertex2f(400,250);//H
+glVertex2f(450,250);//G
+glVertex2f(450,220);//G
+glEnd();
+
+//for metrorail nose window
+glBegin(GL_POLYGON);
+glColor3f(0.69,0.478,0.588);
+glVertex2f(600,270);//H
+glVertex2f(700,230);//H
+//glVertex2f(750,170);//G
+glVertex2f(600,230);//G
+glEnd();
+
+//for metrorail gate 1
+glBegin(GL_POLYGON);
+glColor3f(0.706,0.663,0.741);
+glVertex2f(25,250);//H
+glVertex2f(75,250);//H
+glVertex2f(75,170);//G
+glVertex2f(25,170);//G
+glEnd();
+
+//for metrorail gate 2
+glBegin(GL_POLYGON);
+glColor3f(0.706,0.663,0.741);
+glVertex2f(500,250);//H
+glVertex2f(550,250);//H
+glVertex2f(550,170);//G
+glVertex2f(500,170);//G
+glEnd();
+
+glPopMatrix();
+}
+
+void change2(int value)
+{
+   plane1+= 0.2;
+
+
+    if(plane1 > 1500)
+    {
+        plane1 = -1500;
+    }
+
+        glutPostRedisplay();
+        glutTimerFunc(1, change2, 0);
+}
+
+
+void road()
+{
+//for road //12
+glBegin(GL_POLYGON);
+glColor3f(0,0,0);
+glVertex2f(0,0);//
+glVertex2f(0,15);//L
+glVertex2f(1500,15);//H
+glVertex2f(1500,0);//G
+glEnd();
+}
+
+void car1() //13
+{
+    glMatrixMode(GL_MODELVIEW);
+    glPushMatrix();
+    glTranslated(plane1, 0, 0);
+
+
+
+//for car 1
+glBegin(GL_POLYGON);
+glBegin(GL_POLYGON);
+if (isDay) {
+       glColor3f(1, 0, 0);
+    } else if (isNight) {
+       glColor3f(1.0f, 0.984f, 0.0f);
+    }glVertex2f(1220, 80);//
+glVertex2f(1250, 80);//L
+glVertex2f(1250,35);//H
+glVertex2f(1220,35);//G
+glEnd();
+
+//for car 2
+glBegin(GL_POLYGON);
+glBegin(GL_POLYGON);
+if (isDay) {
+       glColor3f(1, 0, 0);
+    } else if (isNight) {
+       glColor3f(1.0f, 0.984f, 0.0f);
+    }glVertex2f(1250, 110);//
+glVertex2f(1350, 110);//L
+glVertex2f(1350,35);//H
+glVertex2f(1250,35);//G
+glEnd();
+
+//for car 3
+glBegin(GL_POLYGON);
+glBegin(GL_POLYGON);
+if (isDay) {
+       glColor3f(1, 0, 0);
+    } else if (isNight) {
+       glColor3f(1.0f, 0.984f, 0.0f);
+    }glVertex2f(1350, 80);//
+glVertex2f(1380, 80);//L
+glVertex2f(1380, 35);//H
+glVertex2f(1350, 35);//G
+glEnd();
+
+//for car 1 window
+glBegin(GL_POLYGON);
+glColor3f(1,1,1);
+glVertex2f(1275, 100);//
+glVertex2f(1325, 100);//L
+glVertex2f(1325,80);//H
+glVertex2f(1275,80);//G
+glEnd();
+
+int i;
+
+GLfloat x=1350.0f; GLfloat y=30.0f; GLfloat radius =15.0f;
+int triangleAmount = 100; //# of lines used to draw circle
+
+//GLfloat radius = 0.8f; //radius
+GLfloat twicePi = 2.0f * PI;
+
+glColor3f(0.0f, 1.0f, 0.0f);
+glBegin(GL_TRIANGLE_FAN);
+	glVertex2f(x, y); // center of circle
+	for(i = 0; i <= triangleAmount;i++) {
+		glVertex2f( x + (radius * cos(i *  twicePi / triangleAmount)),
+                    y + (radius * sin(i * twicePi / triangleAmount)) );
+}
+glEnd();
+
+int j;
+
+	GLfloat x1=1250.0f; GLfloat y1=30.0f; GLfloat radius1 =15.0f;
+	int triangleAmount1 = 100; //# of lines used to draw circle
+
+	//GLfloat radius = 0.8f; //radius
+	GLfloat twicePi1 = 2.0f * PI;
+
+	glColor3f(0.0f, 1.0f, 0.0f);
+	glBegin(GL_TRIANGLE_FAN);
+		glVertex2f(x1, y1); // center of circle
+		for(j = 0; j <= triangleAmount1;j++) {
+			glVertex2f( x1 + (radius1 * cos(j *  twicePi1 / triangleAmount1)),
+                        y1 + (radius1 * sin(j * twicePi1 / triangleAmount1)) );
+		}
+
+    glEnd();
+    glPopMatrix();
+}
+
+void change1(int value)
+{
+   plane1+= 0.2;
+
+
+    if(plane1 > 1500)
+    {
+        plane1 = -1500;
+    }
+
+        glutPostRedisplay();
+        glutTimerFunc(1, change1, 0);
+}
+
+
+void car2() //14
+{
+     glMatrixMode(GL_MODELVIEW);
+    glPushMatrix();
+    glTranslated(plane1, 0, 0);
+
+//for 2nd car
+glBegin(GL_POLYGON);
+if (isDay) {
+       glColor3f(1, 0, 0);
+    } else if (isNight) {
+       glColor3f(1.0f, 0.984f, 0.0f);
+    }
+glVertex2f(320, 35);
+glVertex2f(320, 80);//L
+glVertex2f(480, 80);//H
+glVertex2f(480, 35);//G
+glEnd();
+
+//for 2nd car
+glBegin(GL_POLYGON);
+if (isDay) {
+       glColor3f(1, 0, 0);
+    } else if (isNight) {
+       glColor3f(1.0f, 0.984f, 0.0f);
+    }glVertex2f(350, 80);//H
+glVertex2f(350, 110);//G
+glVertex2f(450, 110);//
+glVertex2f(450, 80);//L
+glEnd();
+
+//for car window
+glBegin(GL_POLYGON);
+glColor3f(1,1,1);
+glVertex2f(375, 100);//
+glVertex2f(425, 100);//L
+glVertex2f(425,80);//H
+glVertex2f(375,80);//G
+glEnd();
+
+// for 2nd car wheel 1
+int k;
+
+GLfloat x2=350.0f; GLfloat y2=30.0f; GLfloat radius2 =15.0f;
+int triangleAmount2 = 100; //# of lines used to draw circle
+
+//GLfloat radius = 0.8f; //radius
+GLfloat twicePi2 = 2.0f * PI;
+
+glColor3f(0.0f, 1.0f, 0.0f);
+glBegin(GL_TRIANGLE_FAN);
+	glVertex2f(x2, y2); // center of circle
+	for(k = 0; k <= triangleAmount2;k++) {
+		glVertex2f( x2 + (radius2 * cos(k *  twicePi2 / triangleAmount2)),
+                    y2 + (radius2 * sin(k * twicePi2 / triangleAmount2)) );
+}
+glEnd();
+
+// for 2nd car wheel 2
+int l;
+
+	GLfloat x3=450.0f; GLfloat y3=30.0f; GLfloat radius3 =15.0f;
+	int triangleAmount3 = 100; //# of lines used to draw circle
+
+	//GLfloat radius = 0.8f; //radius
+	GLfloat twicePi3 = 2.0f * PI;
+
+	glColor3f(0.0f, 1.0f, 0.0f);
+	glBegin(GL_TRIANGLE_FAN);
+		glVertex2f(x3, y3); // center of circle
+		for(l = 0; l <= triangleAmount3;l++) {
+			glVertex2f( x3 + (radius3 * cos(l *  twicePi3 / triangleAmount3)),
+                        y3 + (radius3 * sin(l * twicePi3 / triangleAmount3)) );
+		}
+
+    glEnd();
+    glPopMatrix();
+}
+
+void change3(int value)
+{
+   plane1+= 0.02;
+
+
+    if(plane1 > 1500)
+    {
+        plane1 = -1500;
+    }
+
+        glutPostRedisplay();
+        glutTimerFunc(1, change3, 0);
+}
+
+void cloud() //15
+{
+    glMatrixMode(GL_MODELVIEW);
+    glPushMatrix();
+    glTranslated(plane1, 0, 0);
+
+
+    int m;
+
+GLfloat x4=350.0f; GLfloat y4=650.0f; GLfloat radius4 =100.0f;
+int triangleAmount4 = 100; //# of lines used to draw circle
+
+//GLfloat radius = 0.8f; //radius
+GLfloat twicePi4 = 2.0f * PI;
+
+glColor3f(0.0f, 0.996f, 0.671f);
+glBegin(GL_TRIANGLE_FAN);
+	glVertex2f(x4, y4); // center of circle
+	for(m = 0; m <= triangleAmount4;m++) {
+		glVertex2f( x4 + (radius4 * cos(m *  twicePi4 / triangleAmount4)),
+                    y4 + (radius4 * sin(m * twicePi4 / triangleAmount4)) );
+}
+glEnd();
+
+// for 2nd car wheel 2
+int n;
+
+	GLfloat x5=450.0f; GLfloat y5=650.0f; GLfloat radius5 =75.0f;
+	int triangleAmount5 = 100; //# of lines used to draw circle
+
+	//GLfloat radius = 0.8f; //radius
+	GLfloat twicePi5 = 2.0f * PI;
+
+	glColor3f(0.0f, 0.996f, 0.671f);
+	glBegin(GL_TRIANGLE_FAN);
+		glVertex2f(x5, y5); // center of circle
+		for(n = 0; n <= triangleAmount5;n++) {
+			glVertex2f( x5 + (radius5 * cos(n *  twicePi5 / triangleAmount5)),
+                        y5 + (radius5 * sin(n * twicePi5 / triangleAmount5)) );
+		}
+
+    glEnd();
+
+    int o;
+
+	GLfloat x6=250.0f; GLfloat y6=650.0f; GLfloat radius6 =70.0f;
+	int triangleAmount6 = 100; //# of lines used to draw circle
+
+	//GLfloat radius = 0.8f; //radius
+	GLfloat twicePi6 = 2.0f * PI;
+
+	glColor3f(0.0f, 0.996f, 0.671f);
+	glBegin(GL_TRIANGLE_FAN);
+		glVertex2f(x6, y6); // center of circle
+		for(o = 0; o <= triangleAmount6;o++) {
+			glVertex2f( x6 + (radius6 * cos(o *  twicePi6 / triangleAmount6)),
+                        y6 + (radius6 * sin(o * twicePi6 / triangleAmount6)) );
+		}
+
+    glEnd();
+    glPopMatrix();
+}
+void change4(int value)
+{
+   plane1+= 0.02;
+
+
+    if(plane1 > 1500)
+    {
+        plane1 = -1500;
+    }
+
+        glutPostRedisplay();
+        glutTimerFunc(1, change3, 0);
+}
+
+void display1()
+{
+glClear(GL_COLOR_BUFFER_BIT);
+
+if (isDay) {
+        glClearColor(1.0f, 1.0f, 1.0f, 1.0f); // Set background color // Day background
+    } else if (isNight) {
+        glClearColor(0.05f, 0.05f, 0.2f, 1.0f); // Night background
+    }
+
+building1();
+building2();
+building3();
+building4();
+building5();
+building6();
+building7();
+building8();
+building9();
+metrospan();
+metro();
+road();
+car1();
+car2();
+cloud();
+
+glutSwapBuffers();
+
+}
+////////////////////////////////////////
