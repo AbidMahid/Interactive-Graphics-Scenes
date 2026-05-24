@@ -1,0 +1,908 @@
+nayeem-slide-3
+void skyN(){
+
+////akash part
+ glBegin(GL_QUADS);
+
+if (isDay) {
+        glColor3ub(153,204,255); // Set background color // Day background
+    } else if (isNight) {
+        glColor3ub(128,128,128); // Night background
+    }
+   // glColor3ub(153,204,255);
+    glVertex2f(0,800) ;
+    glVertex2f (1500,800);
+    glVertex2f(1500,500);
+    glVertex2f (0,500);
+    glEnd();
+//end akash part//////////////
+}
+
+void riverN(){
+
+ // nodi
+    glColor3ub(102,178,255); // Road color (valid RGB values)
+    glBegin(GL_QUADS);
+    glVertex2f  (1.9257459107644, 177.632962636464);  // Top-left corner
+    glVertex2f  (1500,300); // Top-right corner
+    glVertex2f (1501.8812917308862, -2.75251360331632); // Bottom-right corner
+    glVertex2f (0, 0);  // Bottom-left corner
+    glEnd();
+
+}
+void gass(){
+
+//sobuj color gass er jonno
+    glColor3ub(178,255,102);
+    glBegin(GL_QUADS);
+    glVertex2f(0,500);  // Top-left corner
+    glVertex2f(1500, 500); // Top-right corner
+    glVertex2f(1500,400); // Bottom-right corner
+    glVertex2f(0,256.58);  // Bottom-left corner
+    glEnd();
+}
+void roadN(){
+///////////////begin CAR rasta/////////////////////////////////////////
+    //car er rasta
+     glColor3ub(128,128,128);
+    glBegin(GL_QUADS);
+    glVertex2f(0,256.58);  // Top-left corner
+    glVertex2f(1500,400); // Top-right corner
+    glVertex2f(1500, 300); // Bottom-right corner
+    glVertex2f (1.9257459107644, 177.632962636464);  // Bottom-left corner
+    glEnd();
+     //road er sada dag
+     glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+    glVertex2f (1046.7381755529236, 282.082575457874);
+    glVertex2f (1182.4781463606732, 293.5535589064162);
+    glVertex2f (1162.4039253257242, 284.9503213200096);
+    glVertex2f (1032.3994462422459, 274.4352531588459);
+    glEnd();
+
+     glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+    glVertex2f (667.8127719207165, 253.2237791365007);
+    glVertex2f (803.3254598157865, 265.3077130889273);
+    glVertex2f (783.8352604846538, 256.1989269962446);
+    glVertex2f (641.3169812754927, 243.728577565443);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+    glVertex2f(242.3772481240045, 213.4809287603648) ;
+    glVertex2f (388.5928489483669, 227.0580916940556);
+    glVertex2f(380.9186520505614, 216.7485122298648);
+    glVertex2f (228.8000851903137, 203.0369572729104);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+    glVertex2f (227.3479565488037, 272.3663008614787) ;
+    glVertex2f (377.3273833136158, 285.3141650426135);
+    glVertex2f (374.740714114713, 274.0802575428336);
+    glVertex2f (228.0849203366334, 259.3409817862428);
+    glEnd();
+
+      glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+    glVertex2f (664.3674827317244, 313.8763020856291) ;
+    glVertex2f (797.7579283288721, 326.4046864787313);
+    glVertex2f (790.3882904505766, 314.6132658734586);
+    glVertex2f (666.578374095213, 302.0848814803563);
+    glEnd();
+
+      glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+    glVertex2f (1023.2688474047131, 345.5657449622994) ;
+    glVertex2f (1150.026618911395, 361.7789482945494);
+    glVertex2f (1143.393944820929, 349.9875276892767);
+    glVertex2f (1024.7427749803721, 334.5112881448563);
+    glEnd();
+
+}
+
+void smalltin(){
+
+//1st tin-shed////////
+    glBegin(GL_QUADS);
+    glColor3ub(0, 0, 204);
+    glVertex2f(54.0471133582985, 448.997372666903);  // Top-left corner
+    glVertex2f(256.7293085155577, 446.9500777663246); // Top-right corner
+    glVertex2f(300, 400); // Bottom-right corner
+    glVertex2f(17.1958051478877, 398.8386476027326);  // Bottom-left corner
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3ub(255, 0, 0);
+    glVertex2f(35.616, 398.914);  // Top-left corner
+    glVertex2f(280.268, 399.918); // Top-right corner
+    glVertex2f(279.2495524219198, 296.4739025738136); // Bottom-right corner
+    glVertex2f(36.6451067033823, 293.4029602229461);  // Bottom-left corner
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3ub(0, 0, 0);
+    glVertex2f(55.4801791989013, 376.1787350073064);  // Top-left corner
+    glVertex2f (104.2058384224687, 371.2001664449245); // Top-right corner
+    glVertex2f(104.2058384224687, 327.1833260824894); // Bottom-right corner
+    glVertex2f(53.0234659080093, 328.2069735327785);  // Bottom-left corner
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3ub(0, 0, 0);
+    glVertex2f(212.7124681531226, 375.2947562460813);  // Top-left corner
+    glVertex2f (258.776603416136, 373.2474613455029); // Top-right corner
+    glVertex2f(258.776603416136, 331.2779158836461); // Bottom-right corner
+    glVertex2f(212.7124681531226, 332.3015633339353);  // Bottom-left corner
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3ub(0, 0, 0);
+    glVertex2f(132.867967030566, 371.2001664449245);  // Top-left corner
+    glVertex2f (179.9557497438686, 373.2474613455029); // Top-right corner
+    glVertex2f(180.94,295.229); // Bottom-right corner
+    glVertex2f(132.90,294.62);  // Bottom-left corner
+    glEnd();
+
+////////end 1st tin shed/////////////
+}
+
+void largetin(){
+
+////second tin shed start////////////
+    glBegin(GL_QUADS);
+    glColor3ub(0, 0, 255);
+    glVertex2f(295.98,500);  // Top-left corner
+    glVertex2f (445.33, 500); // Top-right corner
+    glVertex2f (495.7571603270096, 448.3754411111707); // Bottom-right corner
+    glVertex2f (235.94,447.16);  // Bottom-left corner
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3ub(255, 0, 0);
+    glVertex2f(466.46,448.23);  // Top-left corner
+    glVertex2f (468.3840355146487, 337.4422510821291); // Top-right corner
+    glVertex2f (279.61,333.81); // Bottom-right corner
+    glVertex2f (278.7803974602889, 449.0739578527939);  // Bottom-left corner
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3ub(255, 255, 0);
+    glVertex2f (329.0694999227916, 434.8490854440737);  // Top-left corner
+    glVertex2f (392.7059711507094, 434.8490854440737); // Top-right corner
+    glVertex2f  (393.59,336.00); // Bottom-right corner
+    glVertex2f (329.00, 334.76);  // Bottom-left corner
+    glEnd();
+
+
+//janala 1st
+    glBegin(GL_QUADS);
+    glColor3ub(1, 1, 1);
+    glVertex2f (280, 440);  // Top-left corner
+    glVertex2f (311.5879134801569, 438.9344117040667); // Top-right corner
+    glVertex2f  (313.0853864083268, 385.5245439326751); // Bottom-right corner
+    glVertex2f (280.13,386.02);  // Bottom-left corner
+    glEnd();
+
+  //janala 2nd second tin er gor
+    glBegin(GL_QUADS);
+    glColor3ub(1, 1, 1);
+    glVertex2f (415.9876069658013, 437.1772490255829);  // Top-left corner
+    glVertex2f (454.7903333242878, 437.1772490255829); // Top-right corner
+    glVertex2f  (455.5663878514575, 385.9576502323808); // Bottom-right corner
+    glVertex2f (415.2115524386316, 385.9576502323808);  // Bottom-left corner
+    glEnd();
+
+/////end second tin shed//////////////
+}
+
+void building(){
+
+///////////////big building started/////////////////////
+    glBegin(GL_QUADS);
+    glColor3ub(255,0,0);
+    glVertex2f (903.356663366274, 613.001107268456);  // Top-left corner
+    glVertex2f  (1099.3012341497056, 615.7377632849843); // Top-right corner
+    glVertex2f (1104.2272149794564, 390.237307523047); // Bottom-right corner
+    glVertex2f (906.6406505861081, 384.2166642866847);  // Bottom-left corner
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3ub(0,0,255);
+    glVertex2f (988.75, 614.19);  // Top-left corner
+    glVertex2f  (1024.85, 614.69); // Top-right corner
+    glVertex2f (1029.26, 387.95); // Bottom-right corner
+    glVertex2f (992.02,386.81);  // Bottom-left corner
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3ub(255, 255, 0);
+    glVertex2f (903.356663366274, 613.001107268456);  // Top-left corner
+    glVertex2f  (879.173345839245, 587.000618249771); // Top-right corner
+    glVertex2f (882.4532802624482, 385.2846512227835); // Bottom-right corner
+    glVertex2f (906.6406505861081, 384.2166642866847);  // Bottom-left corner
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3ub(255, 255, 0);
+    glVertex2f (1099.3012341497056, 615.7377632849843);  // Top-left corner
+    glVertex2f  (1121.0685095504707, 595.2004543077786); // Top-right corner
+    glVertex2f (1125.9884111852753, 399.2243725213965); // Bottom-right corner
+    glVertex2f (1104.2272149794564, 390.237307523047);  // Bottom-left corner
+    glEnd();
+//big building door
+    glBegin(GL_QUADS);
+    glColor3ub(0, 0, 0);
+    glVertex2f (923.0605866852783, 588.9185343230064);  // Top-left corner
+    glVertex2f (964.1104269332039, 589.4658655263121); // Top-right corner
+    glVertex2f  (965.7524205431209, 547.3213628717752); // Bottom-right corner
+    glVertex2f   (923.607917888584, 547.868694075081);  // Bottom-left corner
+    glEnd();
+
+    //big building door
+    glBegin(GL_QUADS);
+    glColor3ub(0, 0, 0);
+    glVertex2f (1038.00013937947, 593.2971839494518);  // Top-left corner
+    glVertex2f (1080.6919732373126, 593.8445151527575); // Top-right corner
+    glVertex2f (1081.786635643924, 554.9839997180546) ; // Bottom-right corner
+    glVertex2f  (1039.0948017860812, 554.436668514749) ;  // Bottom-left corner
+    glEnd();
+    //big building door
+    glBegin(GL_QUADS);
+    glColor3ub(0, 0, 0);
+    glVertex2f (926.8919051084181, 470.1476632056753);  // Top-left corner
+    glVertex2f (975.604382202623, 470.1476632056753); // Top-right corner
+    glVertex2f  (976.1517134059287, 413.2252180618854); // Bottom-right corner
+    glVertex2f  (926.3445739051124, 412.6778868585797) ;  // Bottom-left corner
+    glEnd();
+    //big building door
+    glBegin(GL_QUADS);
+    glColor3ub(0, 0, 0);
+    glVertex2f (1040.1894641926926, 473.4316504255094);  // Top-left corner
+    glVertex2f (1087.2599476769806, 474.5263128321207); // Top-right corner
+    glVertex2f  (1087.2599476769806, 418.1511988916364); // Bottom-right corner
+    glVertex2f (1041.284126599304, 417.0565364850251)  ;  // Bottom-left corner
+    glEnd();
+/////////////////////end big building////////////////
+}
+void sunN(){
+//  only sun
+
+    glPushMatrix();
+    glColor3ub(255, 255, 0); // Yellow color for the sun
+    glTranslatef (557.2741835627056, 714.3171255348115,0); // Position the sun
+    glScalef(45,45,1); // Scale the sphere to make it visible
+    glutSolidSphere(1.0, 50, 50); // Draw a sphere with radius = 1, scaled up
+    glPopMatrix();
+}
+
+void plane(){
+///////////////plane  part start////////////////
+    glMatrixMode(GL_MODELVIEW);
+    glPushMatrix();
+    glTranslated(plane4, 0, 0);
+
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+    glVertex2f (992.2510041723481, 760.9961344345112);
+    glVertex2f (1149.021111302425, 719.8917770772349);
+    glVertex2f (1139.46195842864, 688.3465725937439);
+    glVertex2f (938.7197480791509, 745.7014898364549);
+    glEnd();
+
+    //plame er back
+     glBegin(GL_QUADS);
+    glColor3ub(255,128,0);
+    glVertex2f (1149.021111302425, 719.8917770772349);
+    glVertex2f (1189.1695533723228, 738.0541675374268);
+    glVertex2f (1227.4061648674635, 733.2745911005342);
+    glVertex2f (1139.46195842864, 688.3465725937439);
+    glEnd();
+    //plane er uporer pakha
+     glBegin(GL_QUADS);
+    glColor3ub(1,1,1);
+    glVertex2f (1022.51, 753.05);
+    glVertex2f (1081.3393561483383, 772.0324222089437);
+    glVertex2f (1094.04,768.61);
+    glVertex2f (1046.8651586555554, 747.8710188379337);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3ub(0,0,255);
+    glVertex2f (1094.04,768.61);
+    glVertex2f (1111.9830872530342, 763.7821869115256);
+    glVertex2f (1064.69,742.00);
+    glVertex2f (1046.8651586555554, 747.8710188379337);
+    glEnd();
+
+    //plane er 2nd pakha
+    glBegin(GL_QUADS);
+    glColor3ub(1,1,1);
+    glVertex2f (1006.7100832177068, 723.3672938790861);
+    glVertex2f (1045.20, 715.27);
+    glVertex2f (1058.2091590014659, 681.6551655820942);
+    glVertex2f (1031.4435309548674, 680.6992502947157);
+    glEnd();
+    //plane er window
+     glBegin(GL_QUADS);
+    glColor3ub(1,1,1);
+    glVertex2f (995.7651459216676, 751.4286970889367);
+    glVertex2f (1013.0211023487389, 746.6833090714921);
+    glVertex2f (1008.707113241971, 735.8983363045726);
+    glVertex2f (992.3139546362532, 741.075123232694);
+    glEnd();
+
+      glBegin(GL_QUADS);
+    glColor3ub(1,1,1);
+    glVertex2f (1035.8852446146082, 738.9181286793101);
+    glVertex2f (1049.6054153793407, 735.7019217742426);
+    glVertex2f (1046.6883678991821, 725.6543137870299);
+    glVertex2f (1032.4272468850736, 728.8954776538727);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3ub(1,1,1);
+    glVertex2f (1069.376514967082, 730.8401759739784);
+    glVertex2f (1082.3411704344533, 727.5990121071355);
+    glVertex2f (1080.0723557276633, 717.2272877332385);
+    glVertex2f (1067.107700260292, 721.4408007601342);
+    glEnd();
+
+      glBegin(GL_QUADS);
+    glColor3ub(1,1,1);
+    glVertex2f (1101.1399208621417, 723.7096154669241);
+    glVertex2f (1116.0492746496188, 719.1719860533442);
+    glVertex2f (1114.104576329513, 709.4484944528158);
+    glVertex2f (1099.8434553154045, 714.6343566397643);
+    glEnd();
+//plane er pakha r blue er jonno
+
+     glBegin(GL_QUADS);
+    glColor3ub(0,0,255);
+    glVertex2f (1025.56,720.88);
+    glVertex2f (1045.20,715.27);
+    glVertex2f (1058.2091590014659, 681.6551655820942);
+    glVertex2f (1044.82,681.17);
+    glEnd();
+    glPopMatrix();
+
+}   //////////end plane body part///////////////
+
+   void change7(int value)
+{
+   plane4-= 0.2;
+
+    if(plane4 < -1500)
+    {
+        plane4 = 1500;
+    }
+        glutPostRedisplay();
+        glutTimerFunc(1, change7, 0);
+}
+///////////////////////////////////sesh body part car er
+
+void cloudN1(){
+// 1st cloud part
+      glPushMatrix();
+    glColor3ub(255,255,255); // Yellow color for the sun
+    glTranslatef (70.45526466397882, 692.8629866289962,0); // Position the sun
+    glScalef(30,30,1); // Scale the sphere to make it visible
+    glutSolidSphere(1.0, 50, 50); // Draw a sphere with radius = 1, scaled up
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3ub(255, 255, 255); // Yellow color for the sun
+    glTranslatef (101.6080051759395, 691.798316839853,0); // Position the sun
+    glScalef(40,40,1); // Scale the sphere to make it visible
+    glutSolidSphere(1.0, 50, 50); // Draw a sphere with radius = 1, scaled up
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3ub(255, 255, 255); // Yellow color for the sun
+    glTranslatef (128.7263385624911, 691.798316839853,0); // Position the sun
+    glScalef(40,40,1); // Scale the sphere to make it visible
+    glutSolidSphere(1.0, 50, 50); // Draw a sphere with radius = 1, scaled up
+    glPopMatrix();
+
+     glPushMatrix();
+    glColor3ub(255, 255, 255); // Yellow color for the sun
+    glTranslatef (154.7599386135807, 691.255950172122,0); // Position the sun
+    glScalef(30,30,1); // Scale the sphere to make it visible
+    glutSolidSphere(1.0, 50, 50); // Draw a sphere with radius = 1, scaled up
+    glPopMatrix();
+}
+
+void cloudN2(){
+
+//2nd cloud part
+    glPushMatrix();
+    glColor3ub(255,255,255); // Yellow color for the sun
+    glTranslatef (234.294068356654, 731.8221195720571,0); // Position the sun
+    glScalef(30,30,1); // Scale the sphere to make it visible
+    glutSolidSphere(1.0, 50, 50); // Draw a sphere with radius = 1, scaled up
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3ub(255, 255, 255); // Yellow color for the sun
+    glTranslatef (263.3966700397826, 734.1503277067073,1); // Position the sun
+    glScalef(40,40,1); // Scale the sphere to make it visible
+    glutSolidSphere(1.0, 50, 50); // Draw a sphere with radius = 1, scaled up
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3ub(255, 255, 255); // Yellow color for the sun
+    glTranslatef (289.5890115545984, 735.8964838076951,1); // Position the sun
+    glScalef(40,40,1); // Scale the sphere to make it visible
+    glutSolidSphere(1.0, 50, 50); // Draw a sphere with radius = 1, scaled up
+    glPopMatrix();
+
+     glPushMatrix();
+    glColor3ub(255, 255, 255); // Yellow color for the sun
+    glTranslatef (314.0351969684264, 736.4785358413576,1); // Position the sun
+    glScalef(30,30,1); // Scale the sphere to make it visible
+    glutSolidSphere(1.0, 50, 50); // Draw a sphere with radius = 1, scaled up
+    glPopMatrix();
+
+     glPushMatrix();
+    glColor3ub(255, 255, 255); // Yellow color for the sun
+    glTranslatef (339.0634344159169, 735.3144317740325,1) ; // Position the sun
+    glScalef(40,40,1); // Scale the sphere to make it visible
+    glutSolidSphere(1.0, 50, 50); // Draw a sphere with radius = 1, scaled up
+    glPopMatrix();
+
+     glPushMatrix();
+    glColor3ub(255, 255, 255); // Yellow color for the sun
+    glTranslatef (363.5096198297449, 735.3144317740325,1); // Position the sun
+    glScalef(30,30,1); // Scale the sphere to make it visible
+    glutSolidSphere(1.0, 50, 50); // Draw a sphere with radius = 1, scaled up
+    glPopMatrix();
+
+    /////////////////////end cloud part/////////////////////////////
+}
+
+void circletree(){
+
+///////circle tree start///////////////////
+     glPushMatrix();
+    glColor3ub(0,102, 0); // Yellow color for the sun
+    glTranslatef (526.6997706706318, 445.4057493657571,1); // Position the sun
+    glScalef(30,30,1); // Scale the sphere to make it visible
+    glutSolidSphere(1.0, 50, 50); // Draw a sphere with radius = 1, scaled up
+    glPopMatrix();
+
+     glPushMatrix();
+    glColor3ub(0, 102, 0); // Yellow color for the sun
+    glTranslatef (550.0403094417766, 469.377113509095,1); // Position the sun
+    glScalef(30,30,1); // Scale the sphere to make it visible
+    glutSolidSphere(1.0, 50, 50); // Draw a sphere with radius = 1, scaled up
+    glPopMatrix();
+
+     glPushMatrix();
+    glColor3ub(0, 102, 0); // Yellow color for the sun
+    glTranslatef (572.7500228407283, 494.6101283968192,1); // Position the sun
+    glScalef(30,30,1); // Scale the sphere to make it visible
+    glutSolidSphere(1.0, 50, 50); // Draw a sphere with radius = 1, scaled up
+    glPopMatrix();
+
+     glPushMatrix();
+    glColor3ub(0,102, 0); // Yellow color for the sun
+    glTranslatef (590.4131332621351, 469.377113509095,1); // Position the sun
+    glScalef(30,30,1); // Scale the sphere to make it visible
+    glutSolidSphere(1.0, 50, 50); // Draw a sphere with radius = 1, scaled up
+    glPopMatrix();
+
+     glPushMatrix();
+    glColor3ub(0,102, 0); // Yellow color for the sun
+    glTranslatef (608.7070690557351, 444.774923993564,1); // Position the sun
+    glScalef(30,30,1); // Scale the sphere to make it visible
+    glutSolidSphere(1.0, 50, 50); // Draw a sphere with radius = 1, scaled up
+    glPopMatrix();
+
+     glBegin(GL_QUADS);
+    glColor3ub(102,51,0);
+    glVertex2f (560.7643407690593, 346.3661659314399) ;
+    glVertex2f (561.3951661412524, 440.9899717604054);
+    glVertex2f (578.4274511904662, 440.9899717604054);
+    glVertex2f (577.16580044608, 345.7353405592468);
+    glEnd();
+    //circle tree er shikor
+
+    glBegin(GL_QUADS);
+    glColor3ub(102,51,0);
+    glVertex2f (560.7643407690593, 346.3661659314399) ;
+    glVertex2f (512.8216124823834, 333.1188331153848) ;
+    glVertex2f  (527.293647236515, 334.3572103857679) ;
+    glVertex2f (586.09,346.08);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3ub(102,51,0);
+    glVertex2f  (577.16580044608, 345.7353405592468);
+    glVertex2f (614.047069084438, 335.8603637346181);
+    glVertex2f (602.4513146790225, 335.6456275419252);
+    glVertex2f (586.09,346.08);
+    glEnd();
+
+    //////////////end circle treeee/////////////////////////
+}
+
+void flaghill(){
+
+  /////////////////////////hill er sathe flag////////////////////////
+    //italy flag
+    glBegin(GL_QUADS);
+    glColor3ub(0,0,0);
+    glVertex2f (638.70,507.10) ;
+    glVertex2f (637.0283774026611, 609.7361031852306);
+    glVertex2f (643.6416413179578, 605.908333430335);
+    glVertex2f (643.07,504.52);
+    glEnd();
+
+     glBegin(GL_QUADS);
+    glColor3ub(0,0,0);
+    glVertex2f (643.6416413179578, 605.908333430335) ;
+    glVertex2f (695.291242514664, 606.2051702188218);
+    glVertex2f (695.8849160916376, 578.005675312574);
+    glVertex2f (643.48,577.70);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3ub(0,153,0);
+    glVertex2f (643.6416413179578, 605.908333430335) ;
+    glVertex2f (660.26,606.00) ;
+    glVertex2f (660.01,577.80);
+    glVertex2f (643.48,577.70);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+    glVertex2f (660.26, 606.00) ;
+    glVertex2f (679.56,606.11);
+    glVertex2f (680.011,577.91);
+    glVertex2f (660.01,577.80);
+    glEnd();
+
+      glBegin(GL_QUADS);
+    glColor3ub(255,0,0);
+    glVertex2f (679.56,606.11) ;
+    glVertex2f (695.291242514664, 606.2051702188218);
+    glVertex2f (695.8849160916376, 578.005675312574);
+    glVertex2f (680.01,577.91);
+    glEnd();
+
+    //Bangladesh flag
+    glBegin(GL_QUADS);
+    glColor3ub(0,0,0);
+    glVertex2f (338.13,509.88) ;
+    glVertex2f (335.4380283967431, 597.5939066937409);
+    glVertex2f (340, 600);
+    glVertex2f (343.49,504.88);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3ub(0,153,0);
+    glVertex2f (340,600) ;
+    glVertex2f (403.8228982520673, 601.8590841786755);
+    glVertex2f (405.3205752619955, 572.7613594143562);
+    glVertex2f (341.11,569.52);
+    glEnd();
+
+    glPushMatrix();
+    glColor3ub(255, 0, 0); // Yellow color for the sun
+    glTranslatef (371.08,586.02,1); // Position the sun
+    glScalef(10,10,1); // Scale the sphere to make it visible
+    glutSolidSphere(1.0, 50, 50); // Draw a sphere with radius = 1, scaled up
+    glPopMatrix();
+
+    //germany flag
+    glBegin(GL_QUADS);
+    glColor3ub(0,0,0);
+    glVertex2f (141.05,505.67) ;
+    glVertex2f (143.5843093191539, 601.329668346307);
+    glVertex2f  (150, 600);
+    glVertex2f (146.61,500);
+    glEnd();
+
+     glBegin(GL_QUADS);
+    glColor3ub(0,0,0);
+    glVertex2f (150, 600) ;
+    glVertex2f (202.9179608228718, 599.7066250032466);
+    glVertex2f  (202.9630510049774, 590.5964847179656);
+    glVertex2f (149.72,591.82);
+    glEnd();
+
+     glBegin(GL_QUADS);
+    glColor3ub(255,0,0);
+    glVertex2f (149.72,591.82) ;
+    glVertex2f (202.9630510049774, 590.5964847179656);
+    glVertex2f  (203.1361668699506, 583.4987342540625);
+    glVertex2f (149.48,584.71);
+    glEnd();
+
+     glBegin(GL_QUADS);
+    glColor3ub(255,153,51);
+    glVertex2f (149.48,584.71) ;
+    glVertex2f (203.1361668699506, 583.4987342540625);
+    glVertex2f  (203.1361668699506, 575.5354044652931);
+    glVertex2f (149.22,577.09);
+    glEnd();
+}
+
+void hill(){
+
+//////////hill start//////////////
+    glBegin(GL_QUADS);
+    glColor3ub(153,76,0);
+    glVertex2f(0, 500);
+    glVertex2f(0,543.80);
+    glVertex2f (81.1660873357655, 566.7728403703751);
+    glVertex2f (146.61, 500);
+    glEnd();
+
+    glBegin(GL_TRIANGLES);
+    glColor3ub(153,76,0);
+    glVertex2f (146.61,500);
+    glVertex2f (263.74,579.40);
+    glVertex2f (348.715,500);
+    glEnd();
+
+    //3rd hill
+    glBegin(GL_TRIANGLES);
+    glColor3ub(153,76,0);
+    glVertex2f(348.71,500) ;
+    glVertex2f (650.71,500);
+    glVertex2f ;
+    glEnd();
+
+    glBegin(GL_TRIANGLES);
+    glColor3ub(153,76,0);
+    glVertex2f(650.71,500) ;
+    glVertex2f (768.9861644591998, 604.666100044955);
+    glVertex2f (850,500);
+    glEnd();
+
+     glBegin(GL_TRIANGLES);
+    glColor3ub(153,76,0);
+    glVertex2f(348.71,500) ;
+    glVertex2f (473.8780512359567, 604.666100044955);
+    glVertex2f (650.71,500);
+    glEnd();
+
+      //dan pasher boro boro hill
+     glBegin(GL_QUADS);
+    glColor3ub(102,51,0);
+    glVertex2f (1210.23,500.93) ;
+    glVertex2f (1375.2155121258938, 647.4319208740066);
+    glVertex2f (1500,572.49);
+    glVertex2f (1500,500);
+    glEnd();
+
+/////////////hill end//////////
+}
+
+void boatN(){
+    glMatrixMode(GL_MODELVIEW);
+    glPushMatrix();
+    glTranslated(plane3, 0, 0);
+//boat er triangle
+    glBegin(GL_TRIANGLES);
+    glColor3ub(255,0,0);
+    glVertex2f(838.225f, 192.473f);
+    glVertex2f(836.6849759992958, 121.6096948075068);
+    glVertex2f(645.6611419914874, 120.0691800171212);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3ub(0, 0, 204);
+    glVertex2f(682.6334969607406, 115.4476356459646);  // Top-left corner
+    glVertex2f(996.8985141993932, 115.4476356459646); // Top-right corner
+    glVertex2f(955.3046148589833, 63.0701327728558); // Bottom-right corner
+    glVertex2f(714.9843075588371, 64.6106475632413);  // Bottom-left corner
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3ub(102,255,255);
+    glVertex2f (895.2245380339467, 235.6077892960377);
+    glVertex2f (1023.0872656359476, 235.6077892960377);
+    glVertex2f ( 1023.087,198.63);
+    glVertex2f (896.20, 199.89);
+    glEnd();
+
+     glBegin(GL_QUADS);
+    glColor3ub(255,255,255);
+    glVertex2f (896.20,199.89);
+    glVertex2f (1023.087, 198.63);
+    glVertex2f (1023.0872656359476, 173.9871976806156);
+    glVertex2f (896.82, 177.06);
+    glEnd();
+
+     glBegin(GL_QUADS);
+    glColor3ub(1,1,1);
+    glVertex2f (879.9840407636, 235.4946508405247);
+    glVertex2f (895.2245380339467, 235.6077892960377);
+    glVertex2f (898.3055676147179, 123.1502095978923);
+    glVertex2f (882.1591943603171, 123.1117150101407);
+    glEnd();
+    glPopMatrix();
+}
+
+void change9(int value)
+{
+   plane3-= 0.2;
+
+
+    if(plane3 < -1500)
+    {
+        plane3 = 1500;
+    }
+
+        glutPostRedisplay();
+        glutTimerFunc(1, change9, 0);
+}
+///////end boat part//////////////////////
+
+////////////
+void car(){
+
+/////////////////////// body of car//////////////
+glMatrixMode(GL_MODELVIEW);
+    glPushMatrix();
+    glTranslatef(xposition, yposition, 0.0f);
+    glBegin(GL_QUADS);
+    glColor3ub(255,128,0);
+    glVertex2f (1290.3095952242095, 367.4522587038958);
+    glVertex2f (1372.6139014675, 375.2907640603997);
+    glVertex2f (1400, 350);
+    glVertex2f (1261.8950133068831, 340.0174899561323);
+    glEnd();
+
+     glBegin(GL_QUADS);
+    glColor3ub(1,1,1);
+    glVertex2f (1226.6217392026158, 337.0780504474434);
+    glVertex2f (1421.604559945649, 351.7752479908881);
+    glVertex2f (1423.5641862847751, 323.3606660735616);
+    glVertex2f (1228.5813655417417, 311.6029080388059);
+    glEnd();
+
+    //car er janala
+    glBegin(GL_QUADS);
+    glColor3ub(255,0,255);
+    glVertex2f (1295.6671324167849, 361.4539225218883);
+    glVertex2f (1307.7899129534467, 362.1886364938072);
+    glVertex2f (1308.5246269253655, 352.2699978729022);
+    glVertex2f (1295.2997754308255, 351.5352839009833);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3ub(255,0,255);
+    glVertex2f (1341.5867556617152, 364.3927784095639);
+    glVertex2f (1352.974822226458, 365.4948493674422) ;
+    glVertex2f (1353.7095361983768, 355.9435677324967);
+    glVertex2f (1341.5867556617152, 355.2088537605778);
+    glEnd();
+
+//end car jnala
+
+// for car wheel 1
+int i;
+GLfloat x=1266.77f; GLfloat y=313.90f; GLfloat radius =15.0f;
+int triangleAmount = 100; //# of lines used to draw circle
+GLfloat twicePi = 2.0f * PI;
+
+glColor3f(1.0f, 1.0f, 1.0f);
+glBegin(GL_TRIANGLE_FAN);
+	glVertex2f(x, y); // center of circle
+	for(i = 0; i <= triangleAmount;i++) {
+		glVertex2f( x + (radius * cos(i *  twicePi / triangleAmount)),
+                    y + (radius * sin(i * twicePi / triangleAmount)) );
+}
+glEnd();
+
+    int j;
+    GLfloat x1=1394.32f; GLfloat y1=321.59f; GLfloat radius1 =15.0f;
+    int triangleAmount1 = 100; //# of lines used to draw circle
+    GLfloat twicePi1 = 2.0f * PI;
+
+    glColor3f(1.0f, 1.0f, 1.0f);
+    glBegin(GL_TRIANGLE_FAN);
+	glVertex2f(x1, y1); // center of circle
+	for(j = 0; j <= triangleAmount1;j++) {
+		glVertex2f( x1+ (radius1 * cos(j *  twicePi1 / triangleAmount1)),
+                    y1 + (radius1 * sin(j * twicePi1 / triangleAmount1)) );
+}
+glEnd();
+glPopMatrix();
+
+}
+
+void change8(int value) {
+ // Update positions and scaling
+
+
+        xposition -= xspeed;
+        yposition -= xspeedy; // Move down
+        xpositionScaleX -= scaleSpeedy;
+        xpositionScaleY -= scaleSpeedy;
+
+        // Check if the object has crossed the threshold
+        if (xposition < -1500.0f)
+        {
+            xposition = 1500;
+            yposition = 100;
+        }
+
+
+    // Trigger a redraw
+    glutPostRedisplay();
+
+    // Call update again after 100 ms
+    glutTimerFunc(50,change8, 0);
+}
+
+void triangletree(){
+
+glBegin(GL_QUADS);
+    glColor3ub(153,76,0);
+    glVertex2f(1176.47, 447.533);
+    glVertex2f(1178.53,375.28);
+    glVertex2f (1161.89, 373.20);
+    glVertex2f (1160.82, 447.73);
+    glEnd();
+//upor theke 2nd
+   glBegin(GL_TRIANGLES);
+    glColor3ub(0,102,0);
+    glVertex2f (1167.2379753895864, 583.7508497077177);
+    glVertex2f (1216.028024914239, 489.7848284009794);
+    glVertex2f (1123.869042478784, 488.8813089653377);
+    glEnd();
+
+//uporer ta
+    glBegin(GL_TRIANGLES);
+    glColor3ub(0,102,0);
+    glVertex2f (1168.141494825228, 656.0324045590551);
+    glVertex2f (1212.4139471716721, 557.5487860741081);
+    glVertex2f (1122.9655230431422, 554.838227767183);
+    glEnd();
+
+    glBegin(GL_TRIANGLES);
+    glColor3ub(0,102,0);
+    glVertex2f (1171.2573007060928, 621.8452845748126);
+    glVertex2f (1211.8306312415307, 447.0678607298489);
+    glVertex2f (1132.7646537878568, 448.1082025384499);
+    glEnd();
+    ////end triangle tree///////////
+}
+
+void display3()
+{
+glClear(GL_COLOR_BUFFER_BIT);
+
+if (isDay) {
+        glClearColor(1.0f, 1.0f, 1.0f, 1.0f); // Set background color // Day background
+    } else if (isNight) {
+        glClearColor(0.05f, 0.05f, 0.2f, 1.0f); // Night background
+}
+
+skyN();
+riverN();
+gass();
+roadN();
+smalltin();
+largetin();
+building();
+sunN();
+plane();
+car();
+cloudN1();
+cloudN2();
+circletree();
+flaghill();
+hill();
+boatN();
+triangletree();
+
+glutSwapBuffers();
+
+}
+////////////////
